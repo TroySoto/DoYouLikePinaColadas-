@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F54AA551C272FCB00570748 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F54AA541C272FCB00570748 /* AppDelegate.swift */; };
+		3F54AA571C272FCB00570748 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F54AA561C272FCB00570748 /* ViewController.swift */; };
+		3F54AA5A1C272FCB00570748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F54AA581C272FCB00570748 /* Main.storyboard */; };
+		3F54AA5C1C272FCB00570748 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F54AA5B1C272FCB00570748 /* Images.xcassets */; };
+		3F54AA5F1C272FCB00570748 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F54AA5D1C272FCB00570748 /* LaunchScreen.xib */; };
+		3F54AA6B1C272FCB00570748 /* Do_You_Like_Pina_Coladas__3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F54AA6A1C272FCB00570748 /* Do_You_Like_Pina_Coladas__3Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F54AA651C272FCB00570748 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F54AA471C272FCB00570748 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F54AA4E1C272FCB00570748;
+			remoteInfo = "Do You Like Pina Coladas? 3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F54AA4F1C272FCB00570748 /* Do You Like Pina Coladas? 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Do You Like Pina Coladas? 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F54AA531C272FCB00570748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F54AA541C272FCB00570748 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F54AA561C272FCB00570748 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F54AA591C272FCB00570748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F54AA5B1C272FCB00570748 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3F54AA5E1C272FCB00570748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3F54AA641C272FCB00570748 /* Do You Like Pina Coladas? 3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Do You Like Pina Coladas? 3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F54AA691C272FCB00570748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F54AA6A1C272FCB00570748 /* Do_You_Like_Pina_Coladas__3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Do_You_Like_Pina_Coladas__3Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F54AA4C1C272FCB00570748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F54AA611C272FCB00570748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F54AA461C272FCB00570748 = {
+			isa = PBXGroup;
+			children = (
+				3F54AA511C272FCB00570748 /* Do You Like Pina Coladas? 3 */,
+				3F54AA671C272FCB00570748 /* Do You Like Pina Coladas? 3Tests */,
+				3F54AA501C272FCB00570748 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F54AA501C272FCB00570748 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F54AA4F1C272FCB00570748 /* Do You Like Pina Coladas? 3.app */,
+				3F54AA641C272FCB00570748 /* Do You Like Pina Coladas? 3Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F54AA511C272FCB00570748 /* Do You Like Pina Coladas? 3 */ = {
+			isa = PBXGroup;
+			children = (
+				3F54AA541C272FCB00570748 /* AppDelegate.swift */,
+				3F54AA561C272FCB00570748 /* ViewController.swift */,
+				3F54AA581C272FCB00570748 /* Main.storyboard */,
+				3F54AA5B1C272FCB00570748 /* Images.xcassets */,
+				3F54AA5D1C272FCB00570748 /* LaunchScreen.xib */,
+				3F54AA521C272FCB00570748 /* Supporting Files */,
+			);
+			path = "Do You Like Pina Coladas? 3";
+			sourceTree = "<group>";
+		};
+		3F54AA521C272FCB00570748 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F54AA531C272FCB00570748 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F54AA671C272FCB00570748 /* Do You Like Pina Coladas? 3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3F54AA6A1C272FCB00570748 /* Do_You_Like_Pina_Coladas__3Tests.swift */,
+				3F54AA681C272FCB00570748 /* Supporting Files */,
+			);
+			path = "Do You Like Pina Coladas? 3Tests";
+			sourceTree = "<group>";
+		};
+		3F54AA681C272FCB00570748 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F54AA691C272FCB00570748 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F54AA4E1C272FCB00570748 /* Do You Like Pina Coladas? 3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F54AA6E1C272FCB00570748 /* Build configuration list for PBXNativeTarget "Do You Like Pina Coladas? 3" */;
+			buildPhases = (
+				3F54AA4B1C272FCB00570748 /* Sources */,
+				3F54AA4C1C272FCB00570748 /* Frameworks */,
+				3F54AA4D1C272FCB00570748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Do You Like Pina Coladas? 3";
+			productName = "Do You Like Pina Coladas? 3";
+			productReference = 3F54AA4F1C272FCB00570748 /* Do You Like Pina Coladas? 3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F54AA631C272FCB00570748 /* Do You Like Pina Coladas? 3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F54AA711C272FCB00570748 /* Build configuration list for PBXNativeTarget "Do You Like Pina Coladas? 3Tests" */;
+			buildPhases = (
+				3F54AA601C272FCB00570748 /* Sources */,
+				3F54AA611C272FCB00570748 /* Frameworks */,
+				3F54AA621C272FCB00570748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F54AA661C272FCB00570748 /* PBXTargetDependency */,
+			);
+			name = "Do You Like Pina Coladas? 3Tests";
+			productName = "Do You Like Pina Coladas? 3Tests";
+			productReference = 3F54AA641C272FCB00570748 /* Do You Like Pina Coladas? 3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F54AA471C272FCB00570748 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = TSoto1;
+				TargetAttributes = {
+					3F54AA4E1C272FCB00570748 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					3F54AA631C272FCB00570748 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 3F54AA4E1C272FCB00570748;
+					};
+				};
+			};
+			buildConfigurationList = 3F54AA4A1C272FCB00570748 /* Build configuration list for PBXProject "Do You Like Pina Coladas? 3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F54AA461C272FCB00570748;
+			productRefGroup = 3F54AA501C272FCB00570748 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F54AA4E1C272FCB00570748 /* Do You Like Pina Coladas? 3 */,
+				3F54AA631C272FCB00570748 /* Do You Like Pina Coladas? 3Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F54AA4D1C272FCB00570748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F54AA5A1C272FCB00570748 /* Main.storyboard in Resources */,
+				3F54AA5F1C272FCB00570748 /* LaunchScreen.xib in Resources */,
+				3F54AA5C1C272FCB00570748 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F54AA621C272FCB00570748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F54AA4B1C272FCB00570748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F54AA571C272FCB00570748 /* ViewController.swift in Sources */,
+				3F54AA551C272FCB00570748 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F54AA601C272FCB00570748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F54AA6B1C272FCB00570748 /* Do_You_Like_Pina_Coladas__3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F54AA661C272FCB00570748 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F54AA4E1C272FCB00570748 /* Do You Like Pina Coladas? 3 */;
+			targetProxy = 3F54AA651C272FCB00570748 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F54AA581C272FCB00570748 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F54AA591C272FCB00570748 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F54AA5D1C272FCB00570748 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F54AA5E1C272FCB00570748 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F54AA6C1C272FCB00570748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F54AA6D1C272FCB00570748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F54AA6F1C272FCB00570748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Do You Like Pina Coladas? 3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F54AA701C272FCB00570748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Do You Like Pina Coladas? 3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F54AA721C272FCB00570748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Do You Like Pina Coladas? 3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Do You Like Pina Coladas? 3.app/Do You Like Pina Coladas? 3";
+			};
+			name = Debug;
+		};
+		3F54AA731C272FCB00570748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Do You Like Pina Coladas? 3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Do You Like Pina Coladas? 3.app/Do You Like Pina Coladas? 3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F54AA4A1C272FCB00570748 /* Build configuration list for PBXProject "Do You Like Pina Coladas? 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F54AA6C1C272FCB00570748 /* Debug */,
+				3F54AA6D1C272FCB00570748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F54AA6E1C272FCB00570748 /* Build configuration list for PBXNativeTarget "Do You Like Pina Coladas? 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F54AA6F1C272FCB00570748 /* Debug */,
+				3F54AA701C272FCB00570748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F54AA711C272FCB00570748 /* Build configuration list for PBXNativeTarget "Do You Like Pina Coladas? 3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F54AA721C272FCB00570748 /* Debug */,
+				3F54AA731C272FCB00570748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F54AA471C272FCB00570748 /* Project object */;
+}
