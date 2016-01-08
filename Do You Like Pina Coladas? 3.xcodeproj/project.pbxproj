@@ -13,6 +13,9 @@
 		3F54AA5C1C272FCB00570748 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F54AA5B1C272FCB00570748 /* Images.xcassets */; };
 		3F54AA5F1C272FCB00570748 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F54AA5D1C272FCB00570748 /* LaunchScreen.xib */; };
 		3F54AA6B1C272FCB00570748 /* Do_You_Like_Pina_Coladas__3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F54AA6A1C272FCB00570748 /* Do_You_Like_Pina_Coladas__3Tests.swift */; };
+		3F54AA751C2730FD00570748 /* GamePartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F54AA741C2730FD00570748 /* GamePartViewController.swift */; };
+		3FF47E7A1C27CD4F008817B6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF47E791C27CD4F008817B6 /* AVFoundation.framework */; };
+		3FF47E7E1C27CF8D008817B6 /* escapeSong.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3FF47E7D1C27CF8D008817B6 /* escapeSong.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		3F54AA641C272FCB00570748 /* Do You Like Pina Coladas? 3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Do You Like Pina Coladas? 3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F54AA691C272FCB00570748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F54AA6A1C272FCB00570748 /* Do_You_Like_Pina_Coladas__3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Do_You_Like_Pina_Coladas__3Tests.swift; sourceTree = "<group>"; };
+		3F54AA741C2730FD00570748 /* GamePartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePartViewController.swift; sourceTree = "<group>"; };
+		3FF47E791C27CD4F008817B6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3FF47E7D1C27CF8D008817B6 /* escapeSong.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = escapeSong.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF47E7A1C27CD4F008817B6 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +66,7 @@
 		3F54AA461C272FCB00570748 = {
 			isa = PBXGroup;
 			children = (
+				3FF47E791C27CD4F008817B6 /* AVFoundation.framework */,
 				3F54AA511C272FCB00570748 /* Do You Like Pina Coladas? 3 */,
 				3F54AA671C272FCB00570748 /* Do You Like Pina Coladas? 3Tests */,
 				3F54AA501C272FCB00570748 /* Products */,
@@ -79,6 +87,7 @@
 			children = (
 				3F54AA541C272FCB00570748 /* AppDelegate.swift */,
 				3F54AA561C272FCB00570748 /* ViewController.swift */,
+				3F54AA741C2730FD00570748 /* GamePartViewController.swift */,
 				3F54AA581C272FCB00570748 /* Main.storyboard */,
 				3F54AA5B1C272FCB00570748 /* Images.xcassets */,
 				3F54AA5D1C272FCB00570748 /* LaunchScreen.xib */,
@@ -90,6 +99,7 @@
 		3F54AA521C272FCB00570748 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3FF47E7B1C27CE53008817B6 /* Audio */,
 				3F54AA531C272FCB00570748 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +120,14 @@
 				3F54AA691C272FCB00570748 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FF47E7B1C27CE53008817B6 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				3FF47E7D1C27CF8D008817B6 /* escapeSong.m4a */,
+			);
+			name = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +174,7 @@
 		3F54AA471C272FCB00570748 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = TSoto1;
 				TargetAttributes = {
@@ -195,6 +214,7 @@
 				3F54AA5A1C272FCB00570748 /* Main.storyboard in Resources */,
 				3F54AA5F1C272FCB00570748 /* LaunchScreen.xib in Resources */,
 				3F54AA5C1C272FCB00570748 /* Images.xcassets in Resources */,
+				3FF47E7E1C27CF8D008817B6 /* escapeSong.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F54AA571C272FCB00570748 /* ViewController.swift in Sources */,
+				3F54AA751C2730FD00570748 /* GamePartViewController.swift in Sources */,
 				3F54AA551C272FCB00570748 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +432,7 @@
 				3F54AA701C272FCB00570748 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F54AA711C272FCB00570748 /* Build configuration list for PBXNativeTarget "Do You Like Pina Coladas? 3Tests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +441,7 @@
 				3F54AA731C272FCB00570748 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,17 +7,22 @@
 //
 
 import UIKit
+import AVFoundation
+//holds code that allows use of speakers
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
+class ViewController: UIViewController
+{
+    
+    var audioURL = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("escapeSong", ofType: "m4a")!)
+    var audioPlayer = AVAudioPlayer()
+    // audioURL links the audio called "escpaeSong.m4a" from the "Audio" folder created under "Supporting Files"
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        try! audioPlayer = AVAudioPlayer(contentsOfURL: audioURL)
+        audioPlayer.play()
+        //plays the audio
     }
 
 
